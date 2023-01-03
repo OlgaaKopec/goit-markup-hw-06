@@ -55,68 +55,69 @@
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <button class="modal-close-btn" data-modal-close>&times;</button>
-                <h4>Zostaw swoje dane w formularzu poniżej</h4>
-                  <form class="form-index">
-                    <div>
-                <label class="label-description">
-        
-                Imię
-    
-                <input name="user-name">
-            <svg class="icon-form" width="18" height="18">
-              <use href="./images/icons.svg#icon-person-black"></use>
-                  </svg>
-               
-                </label>
-              </div>
-              <div>
-                <label class="label-description">
-                  
-                  Telefon
-              
-                  <input type="tel" name="user-phone">
-                  <svg class="icon-form" width="18" height="18">
-                    <use href="./images/icons.svg#icon-phone-black"></use>
-                  </svg>
-                </label>
-              </div>
-              <div>
-                <label class="label-description">               
-Email
-                  <input type="email" name="email">
-                  <svg class="icon-form" width="18" height="18">
-                    <use href="./images/icons.svg#icon-email-black"></use>
-                  </svg>
-                </label>
-              </div>
-              <div>
-                <label class="label-description">
-                    Komentarz
-                  
-                  <textarea class="place-for-comments" name="comment" placeholder="Wprowadź tekst"></textarea>
-                 
+              <h4>Zostaw swoje dane w formularzu poniżej</h4>
+              <form class="form-index">
+                <div>
+                  <label class="label-description">
+                    Imię
+
+                    <input name="user-name" />
+                    <svg class="icon-form" width="18" height="18">
+                      <use href="./images/icons.svg#icon-person-black"></use>
+                    </svg>
                   </label>
                 </div>
-<label class="submit-checkbox">
-  <input type="checkbox" name="statute">
-<svg width="16" height="15" class="icon-click is-hidden">
-<use href="./images/icons.svg#icon-Vector"></use>
-</svg>
-<span class="statute-check">
-  Oświadczam iż akceptuję
-  <a class="statute-link" href="#"> Regulamin </a>
-  i
-  
- <a class="statute-link" href="#"> Politykę Prywatności.</a></span>
- <div>
- <button type="submit" name="submit-form">Wyślij</button>  
-</div>                  
-</div>
+                <div>
+                  <label class="label-description">
+                    Telefon
+
+                    <input type="tel" name="user-phone" />
+                    <svg class="icon-form" width="18" height="18">
+                      <use href="./images/icons.svg#icon-phone-black"></use>
+                    </svg>
                   </label>
+                </div>
+                <div>
+                  <label class="label-description">
+                    Email
+                    <input type="email" name="email" />
+                    <svg class="icon-form" width="18" height="18">
+                      <use href="./images/icons.svg#icon-email-black"></use>
+                    </svg>
+                  </label>
+                </div>
+                <div>
+                  <label class="label-description">
+                    Komentarz
+                    <textarea
+                      class="place-for-comments"
+                      name="comment"
+                      placeholder="Wprowadź tekst"
+                    ></textarea>
+                  </label>
+                </div>
+                <div class="regulations">
+                  <label class="submit-checkbox">
+                    <input class="checkbox" type="checkbox" name="checkbox" />
+                    <svg width="16" height="15" class="icon-click">
+                      <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+
+                    <span class="regulations-check">
+                      Oświadczam iż akceptuję
+                      <a class="regulations-link" href="#"> Regulamin </a>
+                      i
+                      <a class="regulations-link" href="#"> Politykę Prywatności.</a>
+                    </span>
+                  </label>
+                  <div class="button-checkbox">
+                    <button type="submit" name="submit-form">Wyślij</button>
+                  </div>
+                </div>
               </form>
             </div>
-            </div>
           </div>
+        </div>
       </section>
       <section class="section td-headers">
         <div class="container">
@@ -402,8 +403,8 @@ Email
       <div class="container join-us-icons">
         <div>
           <a class="logo-main-style" href="#"
-            ><span class="logo">Web</span><span class="logo-second-part-footer">Studio</span></a
-          >
+            ><span class="logo">Web</span><span class="logo-second-part-footer">Studio</span>
+          </a>
           <address>
             <ul>
               <li>
@@ -440,16 +441,17 @@ Email
           </ul>
         </div>
         <div class="newsletter join-us">
-<h3>ZAPISZ SIĘ DO NEWSLETTERA</h3>
-<form>
-  <label>
-  <input class="newsletter-email" name="email" placeholder="E-mail">
-  <button type="submit">Zapisz się<svg width="24" height="24">
-    <use href="./images/icons.svg#icon-icon-send-footer"></use>
-  </svg></button>
-</label>
-</form>
-
+          <h3>ZAPISZ SIĘ DO NEWSLETTERA</h3>
+          <form>
+            <label>
+              <input class="newsletter-email" name="email" placeholder="E-mail" />
+            </label>
+            <button type="submit">
+              Zapisz się<svg width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send-footer"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
