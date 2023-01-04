@@ -194,9 +194,9 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: var(--almost-black);
   text-decoration: none;
   line-height: 1;
+  position: relative;
 }
 
 .nav-links > li > a:hover,
@@ -215,8 +215,8 @@ body {
   width: 100%;
   background-color: var(--main-blue);
   border-radius: 2px;
-  position: relative;
-  top: 31px;
+  position: absolute;
+  top: 45px;
 }
 
 .nav-links > li > a:hover::after,
@@ -227,8 +227,8 @@ body {
   width: 100%;
   background-color: var(--main-blue);
   border-radius: 2px;
-  position: relative;
-  top: 31px;
+  position: absolute;
+  top: 45px;
 }
 
 .portfolio-big-net {
@@ -691,11 +691,8 @@ p.no-opacity {
   letter-spacing: 0.03em;
   color: var(--contact-grey);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  margin-left: 8px;
-  margin-top: 20px;
 }
 .regulations-link {
   color: var(--main-blue);
@@ -768,27 +765,27 @@ p.no-opacity {
   position: relative;
 }
 
+.submit-checkbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: 20px;
+}
+
 .submit-checkbox .checkbox {
   border: 2px solid var(--almost-black);
   appearance: none;
   fill: var(--white-color);
   border-radius: 2px;
-  width: 18px;
-  height: 17px;
+  width: 16px;
+  height: 15px;
   padding: 0;
-  margin-left: 15px;
-  margin-top: 5px;
-  position: relative;
 }
 
 .icon-click {
   position: absolute;
-  margin-left: -21px;
-  margin-top: 6px;
   opacity: 0;
-  border-radius: 2px;
-  background-color: var(--main-blue);
-  z-index: -1;
 }
 
 .checkbox:checked + .icon-click {
